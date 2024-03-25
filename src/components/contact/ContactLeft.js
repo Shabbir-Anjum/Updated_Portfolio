@@ -1,8 +1,9 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { contactImg } from "../../assets/index";
-import { Link } from 'react-scroll';
 
+import { contactImg } from "../../assets/index";
+import { BsCodeSlash } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import { FaLinkedinIn, FaDiscord, FaGithub } from "react-icons/fa";
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
@@ -30,16 +31,35 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <a href='https://www.youtube.com/' rel="noreferrer" target='_blank'> <span className="bannerIcon">
-            <FaFacebookF />
-          </span></a>
-         
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <Link
+            to="https://discord.com/channels/@shabbir_anjum"
+            target="_blank"
+          >
+            {" "}
+            <span className="bannerIcon">
+              <FaDiscord />
+            </span>
+          </Link>
+          <Link to="https://github.com/Shabbir-Anjum" target="_blank">
+            {" "}
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/shabbir-anjum-942495177/"
+            target="_blank"
+          >
+            {" "}
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </Link>
+          <Link to="https://leetcode.com/mahrshabbir768/" target="_blank">
+            <span className="bannerIcon">
+              <BsCodeSlash />
+            </span>
+          </Link>
         </div>
       </div>
     </div>

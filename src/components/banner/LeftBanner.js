@@ -1,8 +1,9 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
-import { Link } from 'react-router-dom';
+import { FaLinkedinIn, FaDiscord, FaGithub, FaReact } from "react-icons/fa";
+import { BsCodeSlash } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -13,7 +14,7 @@ const LeftBanner = () => {
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-20"> 
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
@@ -38,19 +39,37 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
-          <div className="flex gap-4">
-          <Link to="https://web.facebook.com/shabbiranjum.dullo" target="_blank">
-    <span className="bannerIcon">
-        <FaFacebookF />
-    </span>
-</Link>
+          <div className="flex gap-3">
+          <Link
+            to="https://discord.com/channels/@shabbir_anjum"
+            target="_blank"
+          >
+            {" "}
             <span className="bannerIcon">
-              <FaTwitter />
+              <FaDiscord />
             </span>
+          </Link>
+          <Link to="https://github.com/Shabbir-Anjum" target="_blank">
+            {" "}
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/shabbir-anjum-942495177/"
+            target="_blank"
+          >
+            {" "}
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
-          </div>
+          </Link>
+          <Link to="https://leetcode.com/mahrshabbir768/" target="_blank">
+            <span className="bannerIcon">
+              <BsCodeSlash />
+            </span>
+          </Link>
+        </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">

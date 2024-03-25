@@ -1,22 +1,50 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
-
+import React from "react";
+import { FaLinkedinIn, FaDiscord, FaGithub } from "react-icons/fa";
+import { logo } from "../../assets/index";
+import { BsCodeSlash } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
-        <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+        <div className=" flex items-center gap-2">
+          <img
+            src={logo}
+            alt="logo"
+            className=" w-10 h-10 rounded-full border-[1px] border-gray-700"
+          />
+          <span className=" text-gray-500 font-bold">INBIO</span>
+        </div>
+        <div className="flex gap-3">
+          <Link
+            to="https://discord.com/channels/@shabbir_anjum"
+            target="_blank"
+          >
+            {" "}
+            <span className="bannerIcon">
+              <FaDiscord />
+            </span>
+          </Link>
+          <Link to="https://github.com/Shabbir-Anjum" target="_blank">
+            {" "}
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/shabbir-anjum-942495177/"
+            target="_blank"
+          >
+            {" "}
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </Link>
+          <Link to="https://leetcode.com/mahrshabbir768/" target="_blank">
+            <span className="bannerIcon">
+              <BsCodeSlash />
+            </span>
+          </Link>
         </div>
       </div>
       <div className="w-full h-full">
@@ -132,6 +160,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
