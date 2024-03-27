@@ -18,8 +18,7 @@ const ContactLeft = () => {
           Front-end Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Software Engineer ¶ Front-end Developer ¶ Generative AI Enthusiast ¶ LeetCode 30+¶ PhD Candidate
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+92 3318701099</span>
