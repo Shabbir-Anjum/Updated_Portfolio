@@ -5,7 +5,6 @@ import { FaLinkedinIn,  FaGithub } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 import { BsCodeSlash } from "react-icons/bs";
-
 import {Link } from "react-scroll";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -84,7 +83,7 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <a href="https://github.com/Shabbir-Anjum" target="_blank">
+                  <a href="https://github.com/Shabbir-Anjum" target="_blank" rel="noreferrer" >
                     <span className="bannerIcon">
                       <FaGithub />
                     </span>
@@ -92,6 +91,7 @@ const Navbar = () => {
                   <a
                     href="https://www.linkedin.com/in/shabbir-anjum-942495177/"
                     target="_blank"
+                    rel="noreferrer" 
                   >
                     <span className="bannerIcon">
                       <FaLinkedinIn />
@@ -100,6 +100,7 @@ const Navbar = () => {
                   <a
                    href="https://leetcode.com/mahrshabbir768/"
                     target="_blank"
+                    rel="noreferrer" 
                   >
                     <span className="bannerIcon">
                       <BsCodeSlash />
