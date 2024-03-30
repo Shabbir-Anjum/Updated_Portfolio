@@ -37,7 +37,7 @@ const Projects = () => {
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
           link= 'https://dogy-app.vercel.app/'
-          git='https://github.com/Shabbir-Anjum'
+          git=''
         />
         <ProjectsCard
           title="SOCIAL MEDIA CLONE"
