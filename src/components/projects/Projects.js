@@ -16,6 +16,7 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        
         <ProjectsCard
           title="Dogy App | Gemini AI Heckathon"
           des="Dogy Walk Generator, innovating personalized dog walking routes for varied energy levels and safety concerns. Transformed daily walks for dog owners, ensuring both creativity and safety."
@@ -23,6 +24,7 @@ const Projects = () => {
           link= 'https://dogy-app.vercel.app/'
           git='https://github.com/Shabbir-Anjum'
         />
+
         <ProjectsCard
           title="E-commerce Website"
           des=" Check out my new online store! I made it to practice, so you can easily browse and buy cool clothes!"
@@ -30,6 +32,7 @@ const Projects = () => {
           link= 'https://shabbir-shop.vercel.app/'
           git='https://github.com/Shabbir-Anjum'
         />
+
         <ProjectsCard
           title="Food Website"
           des=" I built a responsive Food Web using simple codes in HTML, styled it with easy-to-use Tailwind CSS, and made it interactive using JavaScript and React. With Framer Motion, I added fun animations to make the website more lively."

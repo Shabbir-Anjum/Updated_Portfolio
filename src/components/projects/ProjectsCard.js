@@ -21,6 +21,7 @@ const ProjectsCard = ({ title, des, src, link, git }) => {
             </h3>
             <div className="flex gap-2">
               <Link to={git}>
+                
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                 <BsGithub />
               </span>
@@ -28,6 +29,7 @@ const ProjectsCard = ({ title, des, src, link, git }) => {
               <Link to={link}>
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                 <FaGlobe />
+                
               </span>
               </Link>
             </div>
