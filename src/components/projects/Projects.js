@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour,projectFive,projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -44,24 +44,24 @@ const Projects = () => {
           title="SOCIAL MEDIA CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-          link= 'https://dogy-app.vercel.app/'
+          src={projectFour}
+          link= 'https://youtube-video-transcript.streamlit.app/'
           git='https://github.com/Shabbir-Anjum'
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-          link= 'https://dogy-app.vercel.app/'
+          src={projectFive}
+          link= 'https://devpost.com/software/databuddy'
           git='https://github.com/Shabbir-Anjum'
         />
         <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-          link= 'https://dogy-app.vercel.app/'
+          src={projectSix}
+          link= 'https://voice-assistant-gpt-4o-hackthon.vercel.app/'
           git='https://github.com/Shabbir-Anjum'
         />
       </div>
