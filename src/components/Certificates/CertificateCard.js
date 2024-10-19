@@ -17,7 +17,7 @@ const CertificateCard = ({ id, title, des, src }) => {
           <h3 className="text-lg font-semibold text-designColor group-hover:text-white duration-300">
             {title}
           </h3>
-          <Link to={`/certificate/${id}`}>
+          <Link to={`/certificates/${id}`}>
             <span className="certificate-icon">
               <FaExternalLinkAlt />
             </span>

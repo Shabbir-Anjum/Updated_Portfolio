@@ -9,80 +9,80 @@ const Certificates = () => {
   const certificatesData = [
     {
       id: 1,
-      title: "Web Development Certification",
+      title: "Gemini Hackathon",
       des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React.",
       src: certificate6,
-      link: "https://example.com/certificate1"
+
     },
     {
       id: 2,
-      title: "Machine Learning Specialization",
+      title: "Leetcode 50 Day",
       des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
       src: certificate9,
-      link: "https://example.com/certificate2"
+
     },
     {
       id: 3,
-      title: "Cloud Computing Certification",
+      title: "MultiModal AI Hackathon",
       des: "Achieved certification in cloud computing, covering major platforms and deployment strategies.",
       src: certificate3,
-      link: "https://example.com/certificate3"
+
     },
     {
       id: 4,
-      title: "Web Development Certification",
+      title: "CS50X Puzzle",
       des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React.",
       src: certificate4,
-      link: "https://example.com/certificate1"
+
     },
     {
       id: 5,
-      title: "Machine Learning Specialization",
+      title: "CS50 Python",
       des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
       src: certificate5,
-      link: "https://example.com/certificate2"
+
     },
     {
       id: 6,
-      title: "Cloud Computing Certification",
+      title: "GEN AI Training",
       des: "Achieved certification in cloud computing, covering major platforms and deployment strategies.",
       src: certificate1,
-      link: "https://example.com/certificate3"
+
     },
     {
       id: 7,
-      title: "Web Development Certification",
+      title: "Internship",
       des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React.",
       src: certificate7,
-      link: "https://example.com/certificate1"
+
     },
     {
       id: 8,
-      title: "Machine Learning Specialization",
+      title: "Iqra University Webinar",
       des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
       src: certificate11,
-      link: "https://example.com/certificate2"
+
     },
     {
       id: 9,
-      title: "Cloud Computing Certification",
+      title: "Bemore Festival",
       des: "Achieved certification in cloud computing, covering major platforms and deployment strategies.",
       src: certificate2,
-      link: "https://example.com/certificate3"
+
     },
     {
       id: 10,
-      title: "Web Development Certification",
+      title: "Meta Hacker Cup",
       des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React.",
       src: certificate10,
-      link: "https://example.com/certificate1"
+
     },
     {
       id: 11,
-      title: "Machine Learning Specialization",
+      title: "Leadership",
       des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
       src: certificate8,
-      link: "https://example.com/certificate2"
+
     },
     // Add more certificates as needed
   ];
@@ -108,7 +108,6 @@ const Certificates = () => {
           key={certificate.id}
           id={certificate.id}
           title={certificate.title}
-          des={certificate.des}
           src={certificate.src}
         />
         ))}
