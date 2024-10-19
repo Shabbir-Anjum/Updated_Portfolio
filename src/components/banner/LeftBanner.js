@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Front_end Developer.", "UI Designer."],
+    words: ["Professional Coder.", "MERN Stack Developer.", "AI Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -30,12 +30,11 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a front-end developer with over a year of experience,
-          specializing in developing user-friendly websites. Expert in
-          converting Figma designs to responsive code and API fetching. I enjoy
-          participating in hackathons, collaborating with others to generate
-          innovative ideas. Working effectively in teams is one of my strengths,
-          ensuring excellence in every project I undertake.
+          I am a MERN Stack Developer with over a year of experience, I specialize in building responsive, scalable web
+          applications. My expertise spans across frontend and backend development, API integration, and converting complex
+          designs into clean, functional code. My experiences in hackathons and collaborative environments have honed my
+          leadership and teamwork skills, allowing me to deliver AI-integrated solutions that enhance user experience and
+          productivity.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

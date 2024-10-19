@@ -22,47 +22,44 @@ const Projects = () => {
           des="Dogy Walk Generator, innovating personalized dog walking routes for varied energy levels and safety concerns. Transformed daily walks for dog owners, ensuring both creativity and safety."
           src={projectOne}
           link= 'https://dogy-app.vercel.app/'
-          git='https://github.com/Shabbir-Anjum'
+          git='https://github.com/Shabbir-Anjum/dogy-app'
         />
 
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Check out my new online store! I made it to practice, so you can easily browse and buy cool clothes!"
+          title="TPON"
+          des="TPON is a platform that syncs friends' calendars to create optimized outing plans with a single tap, ensuring everyone's schedules align. It tailors plans to fit friends' budgets and preferences, making get-togethers effortless and enjoyable."
           src={projectTwo}
-          link= 'https://shabbir-shop.vercel.app/'
-          git='https://github.com/Shabbir-Anjum'
+          link= 'https://agil-hackathon-frontend-2akw.vercel.app/'
+          git='https://github.com/Shabbir-Anjum/Teepon'
         />
 
         <ProjectsCard
-          title="Food Website"
-          des=" I built a responsive Food Web using simple codes in HTML, styled it with easy-to-use Tailwind CSS, and made it interactive using JavaScript and React. With Framer Motion, I added fun animations to make the website more lively."
+          title="HealthPulse"
+          des=" HealthPulse is an integrated health analytics platform designed to provide users with deep insights into their health by leveraging data from wearable devices, user-provided health information, and advanced AI models."
           src={projectThree}
-          link= 'https://food-website-livid-nine.vercel.app/'
-          git=''
+          link= 'https://health-pulse-beta.vercel.app/'
+          git='https://github.com/Shabbir-Anjum/MindsDB-Hackathon'
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="OrbitX"
+          des=" In the NASA Space Hackathon, we developed an innovative project focused on utilizing AI-driven models to analyze space data for enhanced exploration and navigation. Our approach aims to optimize resource management and decision-making for future space missions."
           src={projectFour}
-          link= 'https://youtube-video-transcript.streamlit.app/'
-          git='https://github.com/Shabbir-Anjum'
+          link= 'https://orbit-x.vercel.app/'
+          git='https://github.com/Shabbir-Anjum/OrbitX'
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="SiteBuilder"
+          des="It leverages AI to generate and display code snippets instantly using the Together AI LLaMA API and HELICONE API. The application also includes a sandbox feature that allows users to easily transfer code into a live editor, saving valuable time during development."
           src={projectFive}
-          link= 'https://devpost.com/software/databuddy'
-          git='https://github.com/Shabbir-Anjum'
+          link= 'https://github.com/Shabbir-Anjum/SiteBuilder'
+          git='https://github.com/Shabbir-Anjum/SiteBuilder'
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Intervuo"
+          des="This is an AI-powered interviewer bot developed by Team Pathfinder to revolutionize the recruitment process. Our bot conducts interviews autonomously, providing a consistent and efficient way to assess candidates without human intervention."
           src={projectSix}
-          link= 'https://voice-assistant-gpt-4o-hackthon.vercel.app/'
-          git='https://github.com/Shabbir-Anjum'
+          link= 'https://voca-mind.vercel.app/'
+          git='https://github.com/pathfindermilan/Intervuo'
         />
       </div>
     </section>
