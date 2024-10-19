@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
-const CertificateCard = ({ title, des, src, link }) => {
+const CertificateCard = ({ id, title, des, src }) => {
   return (
     <div className="w-full p-4 rounded-lg shadow-shadowOne bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:to-gray-900 transition-colors duration-1000">
       <div className="overflow-hidden rounded-lg mb-4">
@@ -16,11 +17,11 @@ const CertificateCard = ({ title, des, src, link }) => {
           <h3 className="text-lg font-semibold text-designColor group-hover:text-white duration-300">
             {title}
           </h3>
-          <a href={link} target="_blank" rel="noopener noreferrer" className="certificate-link">
+          <Link to={`/certificate/${id}`}>
             <span className="certificate-icon">
               <FaExternalLinkAlt />
             </span>
-          </a>
+          </Link>
         </div>
         <p className="text-sm text-gray-300 group-hover:text-gray-100 duration-300">
           {des}

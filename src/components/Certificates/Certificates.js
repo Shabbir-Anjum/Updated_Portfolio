@@ -105,12 +105,12 @@ const Certificates = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         {certificatesData.map((certificate) => (
           <CertificateCard
-            key={certificate.id}
-            title={certificate.title}
-            des={certificate.des}
-            src={certificate.src}
-            link={certificate.link}
-          />
+          key={certificate.id}
+          id={certificate.id}
+          title={certificate.title}
+          des={certificate.des}
+          src={certificate.src}
+        />
         ))}
       </div>
       </div>
