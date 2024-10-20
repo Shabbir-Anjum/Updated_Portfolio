@@ -50,5 +50,5 @@ export {
   certificate11,
   certificate12,
   certificate13,
-  certificate14
+  certificate14,
 };
