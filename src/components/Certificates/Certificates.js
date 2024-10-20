@@ -3,7 +3,7 @@ import Title from '../layouts/Title';
 import CertificateCard from './CertificateCard';
 
 // Import your certificate images here
-import { certificate1, certificate2, certificate3,certificate4, certificate5, certificate6 ,certificate7, certificate8, certificate9 ,certificate10, certificate11 } from "../../assets/index";
+import { certificate1, certificate2, certificate3,certificate4, certificate5, certificate6 ,certificate7, certificate8, certificate9 ,certificate10, certificate11,certificate12,certificate13,certificate14 } from "../../assets/index";
 
 const Certificates = () => {
   const certificatesData = [
@@ -82,9 +82,29 @@ const Certificates = () => {
       title: "Leadership",
       des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
       src: certificate8,
-
     },
-    // Add more certificates as needed
+      {
+        id: 12,
+        title: "Certified Mentor",
+        des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
+        src: certificate12,
+  
+      },
+      {
+        id: 13,
+        title: "Galactice Problem Solver",
+        des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
+        src: certificate13,
+  
+      },
+      {
+        id: 14,
+        title: "PM Laptop Award",
+        des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
+        src: certificate14,
+  
+      },
+
   ];
 
   return (

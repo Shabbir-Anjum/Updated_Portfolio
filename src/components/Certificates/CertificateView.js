@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { certificate1, certificate2, certificate3, certificate4, certificate5, certificate6, certificate7, certificate8, certificate9, certificate10, certificate11 } from "../../assets/index";
+import { certificate1, certificate2, certificate3, certificate4, certificate5, certificate6, certificate7, certificate8, certificate9, certificate10, certificate11,certificate12,certificate13,certificate14 } from "../../assets/index";
 
 const certificateMap = {
   1: { src: certificate6, title: "Gemini Hackathon", des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React." },
@@ -14,6 +14,9 @@ const certificateMap = {
   9: { src: certificate2, title: "Bemore Festival", des: "Achieved certification in cloud computing, covering major platforms and deployment strategies." },
   10: { src: certificate10, title: "Meta Hacker Cup", des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React." },
   11: { src: certificate8, title: "Leadership", des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques." },
+  12: { src: certificate12, title: "Certified Mentor", des: "Achieved certification in cloud computing, covering major platforms and deployment strategies." },
+  13: { src: certificate13, title: "Galactice Problem Solver", des: "Completed comprehensive web development course covering HTML, CSS, JavaScript, and React." },
+  14: { src: certificate14, title: "PM Laptop Award", des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques." },
 };
 
 const CertificateView = () => {
