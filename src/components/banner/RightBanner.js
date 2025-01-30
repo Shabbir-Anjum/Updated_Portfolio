@@ -1,28 +1,25 @@
 import React from 'react';
 import { bannerImg } from "../../assets/index";
+
 const RightBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
-      {/* Profile Image Container */}
-      <div className="relative">
-        {/* Main Profile Image */}
-        <div className="rounded-full overflow-hidden border-4 border-white shadow-2xl">
+      <div className="relative w-[300px] h-[300px] lgl:w-[500px] lgl:h-[500px] rounded-full shadow-2xl shadow-designColor/50 border-[3px] border-[#202327] group">
+        {/* Circular Image Container */}
+        <div className="w-full h-full rounded-full overflow-hidden relative z-10">
           <img
-            className="w-[280px] h-[280px] lgl:w-[400px] lgl:h-[400px] object-cover transform hover:scale-105 transition-transform duration-300"
-            src={bannerImg}
-            alt="Profile"
+            className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQHRCV6oTPmncw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719769700884?e=1743638400&v=beta&t=qXCEw3mw0bYPDqdE1shhOarx33x5sHMzbBIdbQ-Le3w"
+            alt="bannerImg"
           />
         </div>
 
-        {/* Decorative Ring */}
-        <div className="absolute -inset-4 rounded-full border-2 border-designColor opacity-20 animate-spin-slow" />
+        {/* Animated Gradient Border */}
+        <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#1e2024] to-[#202327] animate-pulse opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
 
-        {/* Glowing Background Effect */}
-        <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-designColor to-purple-600 opacity-20 blur-lg -z-10" />
+        {/* Shadow Effect */}
+        <div className="absolute -bottom-2 w-[90%] h-[20px] bg-gradient-to-r from-transparent via-[#ff014f]/50 to-transparent blur-lg opacity-40 group-hover:opacity-60 transition-opacity duration-300"></div>
       </div>
-
-      {/* Background Gradient */}
-      <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024]/50 to-[#202327]/50 rounded-full blur-3xl -z-20" />
     </div>
   );
 };
