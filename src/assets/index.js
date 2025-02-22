@@ -24,6 +24,7 @@ import certificate11 from "./images/Certificats/certificate11.png"
 import certificate12 from "./images/Certificats/certificate12.png"
 import certificate13 from "./images/Certificats/certificate13.png"
 import certificate14 from "./images/Certificats/certificate14.jpg"
+import certificate15 from "./images/Certificats/certificate15.png"
 export {
   logo,
   bannerImg,
@@ -51,4 +52,5 @@ export {
   certificate12,
   certificate13,
   certificate14,
+  certificate15
 };

@@ -3,7 +3,7 @@ import Title from '../layouts/Title';
 import CertificateCard from './CertificateCard';
 
 // Import your certificate images here
-import { certificate1, certificate2, certificate3,certificate4, certificate5, certificate6 ,certificate7, certificate8, certificate9 ,certificate10, certificate11,certificate12,certificate13,certificate14 } from "../../assets/index";
+import { certificate1, certificate2, certificate3,certificate4, certificate5, certificate6 ,certificate7, certificate8, certificate9 ,certificate10, certificate11,certificate12,certificate13,certificate14,certificate15 } from "../../assets/index";
 
 const Certificates = () => {
   const certificatesData = [
@@ -104,7 +104,13 @@ const Certificates = () => {
         src: certificate14,
   
       },
-
+      {
+        id: 15,
+        title: "PM Laptop Award",
+        des: "Completed advanced machine learning specialization including supervised and unsupervised learning techniques.",
+        src: certificate15,
+  
+      },
   ];
 
   return (
